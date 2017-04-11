@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter First Number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+
+        android:id="@+id/t1"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/et1"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Second Number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+
+        android:id="@+id/t2"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/et2"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Third Number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+
+        android:id="@+id/t3"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/et3"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/b1"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/b2"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp" />
+    </TableRow>
+
+
+
+</LinearLayout>

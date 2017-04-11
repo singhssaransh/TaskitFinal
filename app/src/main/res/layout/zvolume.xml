@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Change Volume"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView5" />
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="25dp">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alarm"
+            android:id="@+id/c1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/t1"
+            android:layout_marginLeft="205dp"/>
+
+
+    </TableRow>
+
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skb1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false"
+        android:enabled="false"/>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="25dp">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media"
+            android:id="@+id/c2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/t2"
+            android:layout_marginLeft="205dp"/>
+
+
+    </TableRow>
+
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skb2"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false"
+        android:enabled="false"/>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="25dp">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:id="@+id/c3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/t3"
+            android:layout_marginLeft="175dp"/>
+
+    </TableRow>
+
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skb3"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false"
+        android:enabled="false"
+        />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/b1"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/b2"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp" />
+    </TableRow>
+
+
+</LinearLayout>

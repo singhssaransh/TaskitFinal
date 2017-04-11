@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Volume"
+        android:id="@+id/textView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+
+        android:textSize="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.27"></TableRow>
+
+    <TableRow
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_weight="0.24"
+        android:weightSum="1">
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_marginTop="10dp"
+
+            android:layout_weight="0.32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="00"
+            android:id="@+id/textView2l"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_weight="0.28" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.18">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:background="@null"
+            android:id="@+id/buttonc" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:background="@null"
+            android:id="@+id/buttono" />
+    </TableRow>
+
+</LinearLayout>

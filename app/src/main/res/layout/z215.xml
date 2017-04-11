@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send E-mail"
+        android:id="@+id/textView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+
+        android:textSize="24dp" />
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="30dp"></TableRow>
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.07"
+        android:weightSum="1"
+        android:layout_marginLeft="7dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="To:              "
+            android:id="@+id/textView3"
+            android:layout_marginLeft="7dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="0.68"
+            android:hint="e-mail id" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+
+        android:layout_marginTop="15dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject:   "
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:layout_marginLeft="7dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.70"
+            android:hint="subject" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:layout_marginLeft="7dp"
+
+        android:layout_marginTop="15dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message: "
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_marginLeft="7dp"
+            />
+
+        <EditText
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="message here"
+            android:layout_weight="0.71" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/button3"
+            android:background="@null"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/button2"
+            android:background="@null"
+            />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Screen ON"
+            android:id="@+id/r1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Screen OFF"
+            android:id="@+id/r2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:checked="false" />
+    </RadioGroup>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/b1"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/b2"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp" />
+    </TableRow>
+
+
+
+</LinearLayout>
